@@ -7,12 +7,12 @@ on:
   push:
     branches: [ "main" ]
     paths-ignore:
-      - "*.md"
+      - "**/*.md"
       - "docs/**"
   pull_request:
     branches: [ "main" ]
     paths-ignore:
-      - "*.md"
+      - "**/*.md"
       - "docs/**"
 
 jobs:
