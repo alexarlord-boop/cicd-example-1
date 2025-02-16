@@ -6,7 +6,7 @@ RUN go mod download
 COPY . .
 
 
-RUN go build -o /myapp ./cmd/web
+RUN go build -o /myapp ./
  
 FROM alpine:latest as run
 
