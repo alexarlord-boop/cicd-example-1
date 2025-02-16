@@ -37,7 +37,7 @@ jobs:
     
 
   docker:
-    # needs: build
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Login to Docker Hub
@@ -57,4 +57,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: alexpetrunin/images:latest
+          tags: alexpetrunin/images:cicd-example-1
