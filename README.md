@@ -8,3 +8,4 @@ The build job sets up the Go environment, downloads dependencies, builds the pro
 
 ## Docker job
 The docker job logs into Docker Hub, sets up QEMU and Docker Buildx, and builds and pushes the Docker image to Docker Hub public registry.
+
